@@ -1,0 +1,36 @@
+{
+  "name": "motion-recipe-library",
+  "version": "1.0.0",
+  "description": "Korean library of 559 code-driven motion videos: find by intent, read the principle, adapt the prompt.",
+  "license": "MIT",
+  "author": "VOIDLIGHT",
+  "homepage": "https://motion-recipe-library.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoidLight00/motion-recipe-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VoidLight00/motion-recipe-library/issues"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hls.js": "^1.7.3",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "playwright-core": "^1.63.0",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.3"
+  }
+}

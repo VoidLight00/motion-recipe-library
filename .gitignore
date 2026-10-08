@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+.DS_Store
+*.tsbuildinfo
+
+# 비공개 작업 폴더: 수집 원본, 조사 자료, 검증 증거, 내부 파이프라인
+/data/*
+!/data/playable-catalog.json
+!/data/README.md
+/docs/research/
+/docs/SESSION.md
+/docs/data-report.md
+/qa/
+/scripts/
+/gates/
+/REQUIREMENTS.md
+/FAILURE_LOG.md
+/.impeccable.md
+/.oss-ui-radar/
+/.github/publish-denylist.txt
