@@ -1,0 +1,26 @@
+name: 작품 삭제 요청 (takedown)
+description: 제작자 본인이 자신의 작품을 목록에서 빼 달라고 요청합니다
+title: "[takedown]: "
+labels: ["takedown"]
+body:
+  - type: markdown
+    attributes:
+      value: "제작자 본인만 요청할 수 있습니다. 확인되면 데이터와 공개 사이트에서 제거합니다. 자세한 내용은 THIRD_PARTY_NOTICES.md를 참고하세요."
+  - type: input
+    id: work
+    attributes:
+      label: 작품 주소
+      description: 사이트의 작품 주소(/recipes/...) 또는 원본 게시물 주소를 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: proof
+    attributes:
+      label: 본인 확인 링크
+      description: 같은 작품을 올린 본인 계정의 공개 게시물 링크를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: 추가 설명

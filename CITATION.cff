@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Motion Recipe Library"
+abstract: "Korean library of 559 code-driven motion videos: find by intent, read the principle, adapt the prompt."
+version: 1.0.0
+authors:
+  - name: "VOIDLIGHT"
+license: MIT
+repository-code: "https://github.com/VoidLight00/motion-recipe-library"
+url: "https://motion-recipe-library.vercel.app"
