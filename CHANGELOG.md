@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 ### Added
+- 사이트 헤더와 권리 안내 페이지에 GitHub 저장소 링크를 추가했습니다. 헤더 버튼은 외부 스크립트 없이 저장소 페이지로 연결되어, 방문자가 그곳에서 별표를 누를 수 있습니다.
 - 공개 저장소 문서: LICENSE(MIT), THIRD_PARTY_NOTICES.md, 한국어·영어·일본어·중국어 README, 구조 도해, 커뮤니티 템플릿.
 
 ### Changed

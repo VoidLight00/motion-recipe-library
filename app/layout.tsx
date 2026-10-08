@@ -29,6 +29,7 @@ export default function RootLayout({
             <a href="https://open.kakao.com/o/srSlAiLd" target="_blank" rel="noopener noreferrer">카카오 1:1 ↗</a>
             <a href="https://www.threads.com/@voidlight00" target="_blank" rel="noopener noreferrer">Threads ↗</a>
             <a href="https://x.com/VoidLight_Hyeon" target="_blank" rel="noopener noreferrer">X ↗</a>
+            <a href="https://github.com/VoidLight00/motion-recipe-library" target="_blank" rel="noopener noreferrer" aria-label="GitHub 저장소에서 별표 누르기">★ GitHub ↗</a>
           </nav>
         </section>
         <header className="masthead">

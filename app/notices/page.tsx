@@ -25,6 +25,17 @@ export default function Notices() {
         저장한 작품은 현재 브라우저에만 보관됩니다. 계정으로 동기화되지 않으며
         브라우저 데이터를 지우면 삭제됩니다.
       </p>
+      <p>
+        이 사이트의 소스 코드와 수록 자료의 출처·권리 고지는{" "}
+        <a
+          href="https://github.com/VoidLight00/motion-recipe-library"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub 저장소
+        </a>
+        에서 볼 수 있습니다. 도움이 되었다면 저장소에 별표를 눌러 주십시오.
+      </p>
       <p>인터넷에 공개된 다양한 오픈소스를 바탕으로 정리해 만들었습니다.</p>
     </main>
   );
