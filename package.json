@@ -31,6 +31,6 @@
     "@types/react-dom": "^19",
     "playwright-core": "^1.63.0",
     "prettier": "^3.9.9",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }
