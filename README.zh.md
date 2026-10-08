@@ -85,8 +85,8 @@ data/playable-catalog.json 保存 559 个作品的标题、摘要、分类、搜
 
 ## 验证状态
 
-- **已验证运行**: npm run typecheck（tsc --noEmit）于 2026-10-08 以退出码 0 完成。
-- **已验证运行**: npm run build 于 2026-10-08 以退出码 0 完成，预渲染了 559 个作品页面、首页和权利说明页。
+- **已验证运行**: 2026-10-08 在新克隆的仓库中，npm ci 安装了 33 个包，npm run typecheck（tsc --noEmit）以退出码 0 完成。
+- **已验证运行**: 在同一个克隆中，npm run build 以退出码 0 完成，预渲染了 559 个作品页面、首页和权利说明页。npm run dev 在 http://localhost:3000 返回了 HTTP 200。
 - **已验证运行**: 2026-10-08 运行脚本统计 data/playable-catalog.json，结果是作品 559 个、不同的创作者名称 503 个、实践指南 16 个、带完整原文提示词的作品 357 个。没有任何作品被标记为已执行、已复现或已导出。
 - **已验证运行**: 统计每条记录 referenceUrl 的域名，结果是 skillry.dev 475、prompt-motion.com 38、remotion.dev 25、x.com 15、brochbuilds.com 6。
 - **已检查代码**: 仓库包含 LICENSE（MIT）和 THIRD_PARTY_NOTICES.md，上游列表仓库的 MIT 声明保存在 public/notices 中。

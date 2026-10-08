@@ -532,10 +532,10 @@
       "id": "check-typecheck",
       "status": "execution-verified",
       "body": {
-        "en": "npm run typecheck (tsc --noEmit) exited with code 0 on 2026-10-08.",
-        "ko": "npm run typecheck(tsc --noEmit)가 2026-10-08에 종료 코드 0으로 끝났습니다.",
-        "ja": "npm run typecheck（tsc --noEmit）は2026-10-08に終了コード0で完了しました。",
-        "zh": "npm run typecheck（tsc --noEmit）于 2026-10-08 以退出码 0 完成。"
+        "en": "In a fresh clone made on 2026-10-08, npm ci installed 33 packages and npm run typecheck (tsc --noEmit) exited with code 0.",
+        "ko": "2026-10-08에 새로 클론한 저장소에서 npm ci로 패키지 33개를 설치했고, npm run typecheck(tsc --noEmit)가 종료 코드 0으로 끝났습니다.",
+        "ja": "2026-10-08に新しくクローンしたリポジトリで、npm ciによりパッケージ33個をインストールし、npm run typecheck（tsc --noEmit）が終了コード0で完了しました。",
+        "zh": "2026-10-08 在新克隆的仓库中，npm ci 安装了 33 个包，npm run typecheck（tsc --noEmit）以退出码 0 完成。"
       },
       "evidence": [
         "package-scripts"
@@ -545,10 +545,10 @@
       "id": "check-build",
       "status": "execution-verified",
       "body": {
-        "en": "npm run build exited with code 0 on 2026-10-08 and prerendered 559 recipe pages, the home page, and the notice page.",
-        "ko": "npm run build가 2026-10-08에 종료 코드 0으로 끝났고 작품 페이지 559개, 홈, 권리 안내 페이지를 미리 렌더링했습니다.",
-        "ja": "npm run buildは2026-10-08に終了コード0で完了し、作品ページ559件、ホーム、権利案内ページを事前レンダリングしました。",
-        "zh": "npm run build 于 2026-10-08 以退出码 0 完成，预渲染了 559 个作品页面、首页和权利说明页。"
+        "en": "In the same clone, npm run build exited with code 0 and prerendered 559 recipe pages, the home page, and the notice page. npm run dev answered HTTP 200 at http://localhost:3000.",
+        "ko": "같은 클론에서 npm run build가 종료 코드 0으로 끝났고 작품 페이지 559개, 홈, 권리 안내 페이지를 미리 렌더링했습니다. npm run dev는 http://localhost:3000에서 HTTP 200으로 응답했습니다.",
+        "ja": "同じクローンでnpm run buildが終了コード0で完了し、作品ページ559件、ホーム、権利案内ページを事前レンダリングしました。npm run devはhttp://localhost:3000でHTTP 200を返しました。",
+        "zh": "在同一个克隆中，npm run build 以退出码 0 完成，预渲染了 559 个作品页面、首页和权利说明页。npm run dev 在 http://localhost:3000 返回了 HTTP 200。"
       },
       "evidence": [
         "package-scripts",

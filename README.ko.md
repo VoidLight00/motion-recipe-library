@@ -85,8 +85,8 @@ data/playable-catalog.json에 559편의 제목, 요약, 분류, 검색어, 프�
 
 ## 검증 상태
 
-- **실행 확인**: npm run typecheck(tsc --noEmit)가 2026-10-08에 종료 코드 0으로 끝났습니다.
-- **실행 확인**: npm run build가 2026-10-08에 종료 코드 0으로 끝났고 작품 페이지 559개, 홈, 권리 안내 페이지를 미리 렌더링했습니다.
+- **실행 확인**: 2026-10-08에 새로 클론한 저장소에서 npm ci로 패키지 33개를 설치했고, npm run typecheck(tsc --noEmit)가 종료 코드 0으로 끝났습니다.
+- **실행 확인**: 같은 클론에서 npm run build가 종료 코드 0으로 끝났고 작품 페이지 559개, 홈, 권리 안내 페이지를 미리 렌더링했습니다. npm run dev는 http://localhost:3000에서 HTTP 200으로 응답했습니다.
 - **실행 확인**: 2026-10-08에 data/playable-catalog.json의 항목을 세는 스크립트를 실행한 결과, 작품 559편, 서로 다른 제작자 이름 503개, 실습 가이드 16편, 원문 프롬프트 전체가 있는 작품 357편이었습니다. 실행·재현·출력을 마쳤다고 표시한 작품은 없었습니다.
 - **실행 확인**: 작품마다 referenceUrl의 도메인을 세면 skillry.dev 475편, prompt-motion.com 38편, remotion.dev 25편, x.com 15편, brochbuilds.com 6편입니다.
 - **코드 확인**: LICENSE(MIT)와 THIRD_PARTY_NOTICES.md가 있고, 원본 목록 저장소의 MIT 고지문을 public/notices에 보존했습니다.

@@ -85,8 +85,8 @@ data/playable-catalog.jsonに559本分のタイトル、要約、分類、検索
 
 ## 検証状況
 
-- **実行確認済み**: npm run typecheck（tsc --noEmit）は2026-10-08に終了コード0で完了しました。
-- **実行確認済み**: npm run buildは2026-10-08に終了コード0で完了し、作品ページ559件、ホーム、権利案内ページを事前レンダリングしました。
+- **実行確認済み**: 2026-10-08に新しくクローンしたリポジトリで、npm ciによりパッケージ33個をインストールし、npm run typecheck（tsc --noEmit）が終了コード0で完了しました。
+- **実行確認済み**: 同じクローンでnpm run buildが終了コード0で完了し、作品ページ559件、ホーム、権利案内ページを事前レンダリングしました。npm run devはhttp://localhost:3000でHTTP 200を返しました。
 - **実行確認済み**: 2026-10-08にdata/playable-catalog.jsonの項目を数えるスクリプトを実行したところ、作品559本、異なる制作者名503、実習ガイド16本、完全な原文プロンプトのある作品357本でした。実行・再現・出力済みと記録した作品はありませんでした。
 - **実行確認済み**: 各作品のreferenceUrlのドメインを数えると、skillry.dev 475、prompt-motion.com 38、remotion.dev 25、x.com 15、brochbuilds.com 6です。
 - **コード確認済み**: LICENSE（MIT）とTHIRD_PARTY_NOTICES.mdがあり、元の一覧リポジトリのMIT表示をpublic/noticesに保存しています。

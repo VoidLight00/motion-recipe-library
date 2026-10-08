@@ -85,8 +85,8 @@ The app reads one JSON file of one fixed shape and exports static pages. Replace
 
 ## Verification
 
-- **Execution verified**: npm run typecheck (tsc --noEmit) exited with code 0 on 2026-10-08.
-- **Execution verified**: npm run build exited with code 0 on 2026-10-08 and prerendered 559 recipe pages, the home page, and the notice page.
+- **Execution verified**: In a fresh clone made on 2026-10-08, npm ci installed 33 packages and npm run typecheck (tsc --noEmit) exited with code 0.
+- **Execution verified**: In the same clone, npm run build exited with code 0 and prerendered 559 recipe pages, the home page, and the notice page. npm run dev answered HTTP 200 at http://localhost:3000.
 - **Execution verified**: A script that counted the records in data/playable-catalog.json on 2026-10-08 found 559 records, 503 distinct creator handles, 16 practice guides, and 357 works with a full original prompt. It found no record marked as executed, reproduced, or exported.
 - **Execution verified**: Counting the referenceUrl domain of each record gives skillry.dev 475, prompt-motion.com 38, remotion.dev 25, x.com 15, and brochbuilds.com 6.
 - **Source inspected**: LICENSE (MIT) and THIRD_PARTY_NOTICES.md exist, and the upstream MIT notice is kept in public/notices.
