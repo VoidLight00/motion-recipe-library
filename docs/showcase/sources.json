@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "evidence": [
+    {
+      "id": "data-catalog",
+      "path": "data/README.md",
+      "lines": [
+        1,
+        68
+      ],
+      "status": "execution-verified"
+    },
+    {
+      "id": "catalog-types",
+      "path": "lib/catalog.ts",
+      "lines": [
+        1,
+        83
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "search-logic",
+      "path": "lib/search.ts",
+      "lines": [
+        1,
+        76
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "library-ui",
+      "path": "components/Library.tsx",
+      "lines": [
+        56,
+        156
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "library-saved",
+      "path": "components/Library.tsx",
+      "lines": [
+        120,
+        136
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "detail-prompt",
+      "path": "components/RecipeDetail.tsx",
+      "lines": [
+        15,
+        96
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "detail-form",
+      "path": "components/RecipeDetail.tsx",
+      "lines": [
+        436,
+        483
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "detail-verification",
+      "path": "components/RecipeDetail.tsx",
+      "lines": [
+        197,
+        225
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "stream-hls",
+      "path": "lib/use-stream.ts",
+      "lines": [
+        1,
+        29
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "official-video",
+      "path": "components/OfficialVideo.tsx",
+      "lines": [
+        21,
+        105
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "creator-layout",
+      "path": "app/layout.tsx",
+      "lines": [
+        17,
+        35
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "fonts-import",
+      "path": "app/globals.css",
+      "lines": [
+        4,
+        4
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "notices-page",
+      "path": "app/notices/page.tsx",
+      "lines": [
+        1,
+        31
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "upstream-mit",
+      "path": "public/notices/awesome-opus5-5-videos-MIT.txt",
+      "lines": [
+        1,
+        21
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "third-party",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "lines": [
+        1,
+        74
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "license-file",
+      "path": "LICENSE",
+      "lines": [
+        1,
+        21
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "static-export",
+      "path": "next.config.ts",
+      "lines": [
+        1,
+        7
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "security-headers",
+      "path": "vercel.json",
+      "lines": [
+        1,
+        5
+      ],
+      "status": "code-verified"
+    },
+    {
+      "id": "package-scripts",
+      "path": "package.json",
+      "lines": [
+        16,
+        21
+      ],
+      "status": "execution-verified"
+    },
+    {
+      "id": "node-engine",
+      "path": "package-lock.json",
+      "lines": [
+        788,
+        806
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "private-boundary",
+      "path": ".gitignore",
+      "lines": [
+        9,
+        23
+      ],
+      "status": "documented"
+    }
+  ],
+  "claims": {
+    "find-by-intent": [
+      "data-catalog",
+      "catalog-types",
+      "search-logic",
+      "library-ui"
+    ],
+    "see-and-understand": [
+      "library-ui",
+      "stream-hls",
+      "official-video",
+      "detail-verification"
+    ],
+    "adapt-the-prompt": [
+      "detail-prompt",
+      "detail-form",
+      "data-catalog"
+    ],
+    "data-search": [
+      "data-catalog",
+      "catalog-types",
+      "search-logic",
+      "static-export",
+      "security-headers"
+    ],
+    "playback": [
+      "stream-hls",
+      "official-video",
+      "library-ui"
+    ],
+    "worksheet": [
+      "detail-prompt",
+      "detail-form",
+      "library-saved"
+    ],
+    "reference-for-intro": [
+      "library-ui",
+      "detail-form"
+    ],
+    "learn-principle": [
+      "detail-prompt",
+      "catalog-types",
+      "data-catalog"
+    ],
+    "reuse-structure": [
+      "catalog-types",
+      "static-export",
+      "notices-page"
+    ],
+    "media-not-hosted": [
+      "official-video",
+      "stream-hls",
+      "third-party"
+    ],
+    "rights": [
+      "third-party",
+      "license-file",
+      "notices-page"
+    ],
+    "third-party-hosts": [
+      "official-video",
+      "stream-hls",
+      "fonts-import"
+    ],
+    "not-reproduced": [
+      "detail-verification",
+      "data-catalog"
+    ],
+    "selection": [
+      "private-boundary",
+      "data-catalog"
+    ],
+    "pipeline-private": [
+      "private-boundary"
+    ],
+    "korean-only": [
+      "creator-layout",
+      "library-saved"
+    ],
+    "check-typecheck": [
+      "package-scripts"
+    ],
+    "check-build": [
+      "package-scripts",
+      "static-export"
+    ],
+    "check-data-counts": [
+      "data-catalog"
+    ],
+    "check-sources": [
+      "data-catalog",
+      "third-party"
+    ],
+    "check-license-files": [
+      "license-file",
+      "third-party",
+      "upstream-mit"
+    ],
+    "check-browser-checks": [
+      "private-boundary"
+    ],
+    "quickstart": [
+      "package-scripts",
+      "node-engine",
+      "static-export"
+    ]
+  }
+}

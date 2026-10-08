@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "screenshots": [
+    {
+      "path": "assets/screenshot-home.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "real-screenshot",
+      "source": "https://motion-recipe-library.vercel.app/",
+      "capturedOn": "2026-10-08",
+      "viewport": "1600x900 @1x, Chrome headless",
+      "masking": "Featured work media (poster and video) hidden with CSS before capture; no text was edited."
+    }
+  ]
+}
