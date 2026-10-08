@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "profile": "public-full",
+  "intent": {
+    "visibility": "private",
+    "images": "required",
+    "languages": [
+      "en",
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "release": "not_requested",
+    "description": "Korean library of 559 code-driven motion videos: find by intent, read the principle, adapt the prompt.",
+    "homepage": "https://motion-recipe-library.vercel.app",
+    "topics": [
+      "korean",
+      "motion-graphics",
+      "nextjs",
+      "open-source",
+      "prompt-library",
+      "react",
+      "typescript",
+      "video"
+    ]
+  },
+  "approvals": {
+    "images": true,
+    "publish": false,
+    "release": false
+  },
+  "local": {
+    "artifacts": "pending",
+    "version": "pending"
+  },
+  "remote": {
+    "push": "pending",
+    "metadata": "pending",
+    "tag": "not_requested",
+    "release": "not_requested",
+    "verification": "pending"
+  },
+  "result": "incomplete"
+}

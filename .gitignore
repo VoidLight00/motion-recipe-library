@@ -20,3 +20,33 @@ out/
 /.impeccable.md
 /.oss-ui-radar/
 /.github/publish-denylist.txt
+# --- github harness: 공통 무시 패턴 ---
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+target/
+# 환경/시크릿
+.env
+.env.*
+*.secret
+secrets.*
+*.key
+*.pem
+# 내부 문서 (공개 금지)
+docs-private/
+.private/
+internal/
+# public 누출 차단 내부어 목록(로컬 유지 — 공개 repo에 올리지 않음)
+.github/publish-denylist.txt
+# OS/에디터
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# github 하네스가 로컬에서 만드는 산출물(공개 불필요)
+/Makefile
+/assets/prompts/
